@@ -20,7 +20,7 @@ for j in range(n):
         answer+=1
     indexes[remain]+=1 #나머지가 0이 아닌 경우 인덱스 추가
 
-#같은 인덱스 저장
+#같은 인덱스 저장q
 for i in range(m):
     if (indexes[i]>1):
         n=indexes[i]
