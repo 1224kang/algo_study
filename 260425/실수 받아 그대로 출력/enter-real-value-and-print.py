@@ -1,3 +1,3 @@
-N=int(i)
+N=float(input())
 
-print(f"{round(N,3)}")
+print(f"{round(N,2)}")
