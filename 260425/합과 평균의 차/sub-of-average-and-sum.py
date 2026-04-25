@@ -1,6 +1,8 @@
 a,b,c=map(int,input().split())
 
 sum=a+b+c
-avg=sum/3
+avg=int(sum/3)
+res=sum-avg
 
-print(f"{sum} {avg} {sum}-{avg}")
+
+print(f"{sum} {avg} {res}")
