@@ -5,4 +5,4 @@ avg=int(sum/3)
 res=sum-avg
 
 
-print(f"{sum} {avg} {res}")
+print(f"{sum}\n{avg}\n{res}")
